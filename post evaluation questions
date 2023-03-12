@@ -1,0 +1,25 @@
+What’s the accuracy you are getting?
+
+1.0
+
+What if you choose SVM instead of logistic regression?
+
+SVMs can be more computationally expensive than logistic regression, especially for large datasets with many features. On the other hand, logistic regression is a simpler model and easier to interpret. 
+If we choose SVM instead of logistic regression, we need to modify the classifier initialization and fit the model accordingly.
+SVM works well with unstructured and semi-structured data like text and images while logistic regression works with already identified independent variables. SVM is based on geometrical properties of the data while logistic regression is based on statistical approaches.
+
+What features do you think are important? Can you get the same accuracy using only a single feature?
+
+The important features for this Wikipedia classification task may vary, depending on the dataset and the specific articles being analyzed. However, some potentially useful features could include:
+
+Length of the article: It is possible that featured articles tend to be longer than non-featured articles, as they are expected to be more detailed.
+
+Number of citations: Articles with more citations may be more likely to be featured, as they are likely to be well-researched.
+
+Number of images: Articles with more images may be more visually appealing and engaging, which could make them more likely to be featured.
+
+Number of internal links: Articles with more internal links may be more well-connected within Wikipedia, which could indicate that they are important and well-regarded within the community.
+
+Tone of the article: Featured articles may be expected to be more neutral and encyclopedic in tone, rather than having a biased or promotional tone.
+
+It is possible that using a single feature could achieve a relatively high accuracy, but it is unlikely to be as accurate as using multiple features. For example, using only the length of the article may be a good indicator of whether an article is featured or not, but it is unlikely to capture all of the relevant factors that contribute to an article being featured.
